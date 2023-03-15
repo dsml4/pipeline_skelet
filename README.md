@@ -4,6 +4,7 @@ A simple pipeline example to standalone play with a pipeline design.
 ## Setup pipeline dev container
 
 ```bash
+#bash
 #Create a work directory to clone a git repository. The work directory will be mounted to the container.   
 mkdir work
 #Step into the work directory
@@ -16,6 +17,11 @@ docker build -t skelet .
 # Go back into the work directory to a correct using pwd command inside the next docker run instruction.
 cd ../
 docker run --rm --name skelet -p 3001:3000 -p 8889:8888 -v $(pwd):/home/jovyan/work -e DAGSTER_HOME=/home/jovyan/work/daghome skelet bash work/pipeline_skelet/start.sh
+```
+```bash
+# Windows PowerShell
+#  git config --global core.autocrlf false
+docker run --rm --name skelet -p 3001:3000 -p 8889:8888 -v ${PWD}:/home/jovyan/work -e DAGSTER_HOME=/home/jovyan/work/daghome skelet bash work/pipeline_skelet/start.sh
 ```
 
 Open JupyterLab in a browser: http://127.0.0.1:8889/lab
