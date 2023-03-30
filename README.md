@@ -1,5 +1,5 @@
-# Pipeline Skelet
-A simple pipeline example to standalone play with a pipeline design.
+# The Pipeline Skelet
+A simple pipeline example to standalone play with pipeline design.
 
 ## Setup pipeline dev container
 
@@ -28,8 +28,8 @@ Open JupyterLab in a browser: http://127.0.0.1:8889/lab
 
 Open Dagster in a browser: http://127.0.0.1:3001/lab
 
+<img width="1076" alt="dagstermill_pipeline" src="https://user-images.githubusercontent.com/1010096/228957557-65f90e12-7901-46b7-935f-40a999511184.png">
 
-![simple_pipeline](https://user-images.githubusercontent.com/1010096/225409512-3ba00968-ecc0-4c13-8e36-13a5606d385f.png)
 ![simple_pipeline_launch](https://user-images.githubusercontent.com/1010096/225409534-34c6ea26-f809-427a-ae12-5ed7a408b0e7.png)
 ![simple_pipeline_runs](https://user-images.githubusercontent.com/1010096/225409578-986b7f25-092d-4fe0-89d4-983cfbc0a95a.png)
 ![simple_pipeline_storage](https://user-images.githubusercontent.com/1010096/225410761-557bea3e-670e-4359-beb1-91b45bae1003.png)
