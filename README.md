@@ -1,5 +1,8 @@
 # The Pipeline Skelet
 A simple pipeline example to standalone play with pipeline design.
+┌──────┴──────┐ `rgb(9, 105, 218)` └─────────────┬────────────┘
+
+<span style="color:blue">some *blue* text</span> :tada:
 
 ## Setup pipeline dev container
 
