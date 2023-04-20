@@ -16,8 +16,7 @@ RUN  mamba install --name base pycodestyle gitpython -y && \
      fix-permissions "${CONDA_DIR}" && \
      fix-permissions "/home/${NB_USER}"
 
-RUN pip install -U dsml4s8e && \
-    pip install -U ipynbname && \
+RUN pip install -U dsml4s8e==0.1.4 && \
     pip install -U pytest 
 
 USER ${NB_UID}
