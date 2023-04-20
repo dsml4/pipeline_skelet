@@ -41,4 +41,4 @@ Open Dagster in a browser: http://127.0.0.1:3001
 
 <img width="1109" alt="out_nb_2_skelet" src="https://user-images.githubusercontent.com/1010096/233469762-894ac992-bc0a-44be-9f66-3b729bc58e68.png">
 
-
+<img width="890" alt="skelet_runs" src="https://user-images.githubusercontent.com/1010096/233470938-470df4f7-51ab-4a42-be97-8ab1fb61f867.png">
