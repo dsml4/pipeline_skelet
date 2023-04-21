@@ -19,7 +19,7 @@ cd ../
 docker run --rm --name skelet -p 3001:3000 -p 8889:8888 -v $(pwd):/home/jovyan/work -e DAGSTER_HOME=/home/jovyan/work/daghome skelet bash work/pipeline_skelet/start.sh
 ```
 ```bash
-# Windows PowerShell
+# In Windows PowerShell use the command below before the git clone command: 
 #  git config --global core.autocrlf false
 docker run --rm --name skelet -p 3001:3000 -p 8889:8888 -v ${PWD}:/home/jovyan/work -e DAGSTER_HOME=/home/jovyan/work/daghome skelet bash work/pipeline_skelet/start.sh
 ```
